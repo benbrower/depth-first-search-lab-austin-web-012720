@@ -1,7 +1,7 @@
-function dps(rootNode, vertices, edges){
+function dps(root, vertices, edges){
 		let stack = []
-		stack.push(rootNode)
-		let visited = [rootNode]
+		stack.push(root)
+		let visited = [root]
 
 		while(stack.length != 0){
 			let v = stack.pop()
