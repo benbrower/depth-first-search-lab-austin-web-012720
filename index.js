@@ -1,4 +1,4 @@
-function dps(root, vertices, edges){
+function depthFirstSearch(root, vertices, edges){
 		let stack = []
 		stack.push(root)
 		let visited = [root]
