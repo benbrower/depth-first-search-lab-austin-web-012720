@@ -33,6 +33,6 @@ function findAdjacent(nodeName,  vertices, edges){
 
 function findNode(nodeName, vertices){
   return vertices.find(function(vertex){
-    return vertex.name == nodeName
+    return vertex.name === nodeName
   })
 }
